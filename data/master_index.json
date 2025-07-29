@@ -1,0 +1,31 @@
+{
+  "created_at": "2025-07-29T15:45:53.495195",
+  "total_sources": 4,
+  "total_articles": 5,
+  "sources": {
+    "Business_Standard": {
+      "article_count": 1,
+      "latest_scrape": "2025-07-29T15:41:59.168889",
+      "avg_word_count": 12,
+      "filename": "Business_Standard.json"
+    },
+    "Hindustan_Times": {
+      "article_count": 1,
+      "latest_scrape": "2025-07-29T15:45:41.329689",
+      "avg_word_count": 129,
+      "filename": "Hindustan_Times.json"
+    },
+    "LiveMint": {
+      "article_count": 2,
+      "latest_scrape": "2025-07-29T15:45:51.536028",
+      "avg_word_count": 1007,
+      "filename": "LiveMint.json"
+    },
+    "MoneyControl": {
+      "article_count": 1,
+      "latest_scrape": "2025-07-29T15:45:45.420036",
+      "avg_word_count": 12,
+      "filename": "MoneyControl.json"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.indiatoday.in/visualstories/auto/9-cars-that-transformed-indian-automobile-industry-251797-27-07-2025",
+    "source": "India_Today",
+    "title": "Article from www.indiatoday.in",
+    "content": "Content extraction failed for article at https://www.indiatoday.in/visualstories/auto/9-cars-that-transformed-indian-automobile-industry-251797-27-07-2025. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://www.indiatoday.in/magazine/the-big-story/story/20250623-small-cars-big-losses-2740277-2025-06-13",
+    "source": "India_Today",
+    "title": "Article from www.indiatoday.in",
+    "content": "Content extraction failed for article at https://www.indiatoday.in/magazine/the-big-story/story/20250623-small-cars-big-losses-2740277-2025-06-13. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://economictimes.indiatimes.com/industry/auto/cars-uvs/japan-makes-it-to-top-five-markets-for-india-made-cars/articleshow/121398815.cms",
+    "source": "Economic_Times",
+    "title": "Article from economictimes.indiatimes.com",
+    "content": "Content extraction failed for article at https://economictimes.indiatimes.com/industry/auto/cars-uvs/japan-makes-it-to-top-five-markets-for-india-made-cars/articleshow/121398815.cms. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/industry/auto/cars-uvs/best-family-cars-in-india-under-rs-10-lakh-budget/maruti-suzuki-baleno/slideshow/111888291.cms",
+    "source": "Economic_Times",
+    "title": "Article from economictimes.indiatimes.com",
+    "content": "Content extraction failed for article at https://economictimes.indiatimes.com/industry/auto/cars-uvs/best-family-cars-in-india-under-rs-10-lakh-budget/maruti-suzuki-baleno/slideshow/111888291.cms. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  }
+]

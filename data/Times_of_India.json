@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://timesofindia.indiatimes.com/auto",
+    "source": "Times_of_India",
+    "title": "Article from timesofindia.indiatimes.com",
+    "content": "Content extraction failed for article at https://timesofindia.indiatimes.com/auto. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/auto/cars",
+    "source": "Times_of_India",
+    "title": "Article from timesofindia.indiatimes.com",
+    "content": "Content extraction failed for article at https://timesofindia.indiatimes.com/auto/cars. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/auto/cars/cars-and-suvs-that-are-going-to-get-expensive-from-tomorrow-maruti-audi-mercedes-and-more/articleshow/116821872.cms",
+    "source": "Times_of_India",
+    "title": "Article from timesofindia.indiatimes.com",
+    "content": "Content extraction failed for article at https://timesofindia.indiatimes.com/auto/cars/cars-and-suvs-that-are-going-to-get-expensive-from-tomorrow-maruti-audi-mercedes-and-more/articleshow/116821872.cms. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  }
+]

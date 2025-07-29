@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://indianexpress.com/article/trending/top-10-listing/top-10-best-selling-cars-in-india-9885139/",
+    "source": "Indian_Express",
+    "title": "Article from indianexpress.com",
+    "content": "Content extraction failed for article at https://indianexpress.com/article/trending/top-10-listing/top-10-best-selling-cars-in-india-9885139/. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://indianexpress.com/article/business/india-uk-fta-aston-martin-mini-cooper-cheaper-40-india-10149607/",
+    "source": "Indian_Express",
+    "title": "Article from indianexpress.com",
+    "content": "Content extraction failed for article at https://indianexpress.com/article/business/india-uk-fta-aston-martin-mini-cooper-cheaper-40-india-10149607/. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  }
+]

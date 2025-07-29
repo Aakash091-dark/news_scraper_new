@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.livemint.com/industry/infrastructure/india-warehousing-private-equity-investment-returns-grade-a-warehouses-invit-real-estate-logistics-e-commerce-exits-ipos-11749358741608.html",
+    "source": "LiveMint",
+    "title": "Article from www.livemint.com",
+    "content": "Content extraction failed for article at https://www.livemint.com/industry/infrastructure/india-warehousing-private-equity-investment-returns-grade-a-warehouses-invit-real-estate-logistics-e-commerce-exits-ipos-11749358741608.html. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://www.livemint.com/companies/news/prologis-500-million-india-investment-warehousing-investment-logistics-real-estate-industrial-parks-land-acquisition-11742326700606.html",
+    "source": "LiveMint",
+    "title": "Article from www.livemint.com",
+    "content": "Content extraction failed for article at https://www.livemint.com/companies/news/prologis-500-million-india-investment-warehousing-investment-logistics-real-estate-industrial-parks-land-acquisition-11742326700606.html. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  }
+]

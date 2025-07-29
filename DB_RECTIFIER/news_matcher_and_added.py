@@ -6,7 +6,7 @@ from DATABASE.insert import (
     insertSecondTable,
     insertVECTORSTable,
     insertUniqueNewsInDB,
-    insertDublicateNewsInDB,
+    insertDuplicateNewsInDB,
 )
 from HELPER.check_similarity import check_cosine_similarity
 import uuid
@@ -45,7 +45,7 @@ def add_news_in_db(
 
     # dublicate news
     if somewhat_similar_news_id:
-        insertDublicateNewsInDB(
+        insertDuplicateNewsInDB(
             somewhat_similar_news_id,
             current_news,
             source_category,

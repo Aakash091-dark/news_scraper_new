@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://manufacturing.economictimes.indiatimes.com/news/industry/indias-warehousing-and-logistics-sector-witnesses-203-investment-surge-in-2024/119244891",
+    "source": "Manufacturing_Economictimes",
+    "title": "Article from manufacturing.economictimes.indiatimes.com",
+    "content": "Content extraction failed for article at https://manufacturing.economictimes.indiatimes.com/news/industry/indias-warehousing-and-logistics-sector-witnesses-203-investment-surge-in-2024/119244891. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  },
+  {
+    "url": "https://manufacturing.economictimes.indiatimes.com/news/industry/warehousing-demand-in-india-records-12-growth-mumbai-leads-report/118930782",
+    "source": "Manufacturing_Economictimes",
+    "title": "Article from manufacturing.economictimes.indiatimes.com",
+    "content": "Content extraction failed for article at https://manufacturing.economictimes.indiatimes.com/news/industry/warehousing-demand-in-india-records-12-growth-mumbai-leads-report/118930782. Error: unsupported operand type(s) for +: 'int' and 'str'"
+  }
+]

@@ -4,6 +4,7 @@ import csv
 import os
 from datetime import datetime
 from HELPER.dateformatter import standardize_pub_dates
+
 def ensure_directories():
     os.makedirs("log", exist_ok=True)
     os.makedirs("data", exist_ok=True)
@@ -19,31 +20,30 @@ def log_statistics(new_count: int, duplicate_count: int, csv_file: str):
             writer.writerow(["Timestamp", "New Titles", "Duplicate Titles", "Total Processed"])
         writer.writerow([timestamp, new_count, duplicate_count, new_count + duplicate_count])
 
-def all_rss(rss_url: str, output_file: str, csv_file: str, source, source_category):
+def all_rss(rss_url: str, json_file: str, csv_file: str, source: str, source_category: str) -> str:
     ensure_directories()
-    
+
     # Load existing data
     existing_titles = set()
-    if os.path.exists(output_file):
+    if os.path.exists(json_file):
         try:
-            with open(output_file, "r", encoding="utf-8") as f:
+            with open(json_file, "r", encoding="utf-8") as f:
                 existing_data = json.load(f)
                 existing_titles = {item["title"] for item in existing_data}
         except (json.JSONDecodeError, FileNotFoundError):
             existing_data = []
     else:
         existing_data = []
-    
+
     # Parse RSS feed
     feed = feedparser.parse(rss_url)
-    
+
     new_items = []
     new_count = 0
     duplicate_count = 0
-    
+
     for entry in feed.entries:
         title = entry.get("title", "")
-        
         if title in existing_titles:
             duplicate_count += 1
         else:
@@ -57,21 +57,17 @@ def all_rss(rss_url: str, output_file: str, csv_file: str, source, source_catego
                 "source_category": source_category
             }
             new_items.append(item)
-            existing_titles.add(title)  
-    
-    all_items = existing_data + new_items
-    
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(all_items, f, indent=4, ensure_ascii=False)
-    
-    log_statistics(new_count, duplicate_count, csv_file)
-    
-    print(f"{source_category} Processing complete: {new_count} new titles, {duplicate_count} duplicates")
-    print(f"Data saved to: {output_file}")
-    print(f"Log saved to: log/{csv_file}")
-    date_ = [(entry.get("published", ""))]
-    print(f"{date_}", type(date_))
-    print(standardize_pub_dates(date_))
-    
-    return json.dumps(all_items, indent=4, ensure_ascii=False)
+            existing_titles.add(title)
 
+    all_items = existing_data + new_items
+
+    with open(json_file, "w", encoding="utf-8") as f:
+        json.dump(all_items, f, indent=4, ensure_ascii=False)
+
+    log_statistics(new_count, duplicate_count, csv_file)
+
+    print(f"{source_category} Processing complete: {new_count} new titles, {duplicate_count} duplicates")
+    print(f"Data saved to: {json_file}")
+    print(f"Log saved to: log/{csv_file}")
+
+    return json.dumps(all_items, indent=4, ensure_ascii=False)
